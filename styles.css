@@ -1,24 +1,24 @@
 body {
- background-color: #2F6CD0;
+ background-color: Black;
  font-family: Arial, Times New Roman, sans-serif;
  display: flex;
  flex-wrap: wrap;
 }
 h1 {
- color: #D02FBC;
+ color: Crimson;
  text-align: center;
  width: 100%;
  display: block;
 }
 h1:hover {
- color: #D0932F;
+ color: DarkGoldenRod;
  text-align: center;
  width: 100%;
  display: block;
 }
 a {
  text-decoration: none;
- color: black;
+ color: white;
 }
 .assign {
  background-color: grey;
