@@ -1,0 +1,42 @@
+/*Structure*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4A4841;
+}
+
+#content{
+    background-color: #988D66;
+    padding: 5px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/*Typography*/
+h1{
+    color: #353743;
+}
+
+h2{
+    color: #332F22;
+}
+
+p{
+    color: #5C5E6E;
+}
+
+/*Nav*/
+
+#main-nav li {
+    list-style-type: none;
+    display:inline-block;
+}
+
+#main-nav a{
+    text-decoration: none;
+    background: #5166ED;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
