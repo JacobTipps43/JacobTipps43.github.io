@@ -51,3 +51,15 @@ table, th, td{
     margin: 20px auto;
     padding: 2.5px;
 }
+
+h1{
+    color: #313241;
+}
+
+h2{
+    color: #524C38;
+}
+
+p{
+    color: #33322D;
+}
