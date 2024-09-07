@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 div{
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -11,18 +11,17 @@ div{
 #main-header{
     background-color: black;
 }
-#main-header img{
-    max-width: 25%;
-}
 
 /*Navs*/
 #Gateways ul{
+    text-align: right;
+    max-width: 50%;
     padding-left: 0px;
 }
 #Gateways li{
     list-style: none;
-    display: inline-block;
     color:white;
+    font-size: 8px;
 }
 #Gateways a { 
     text-decoration: none;  /* no underline */
@@ -36,12 +35,14 @@ div{
     color: white;
 }
 
+#main-nav{
+    max-width: 95%;
+}
 #main-nav ul{
     padding-left: 0px;
 }
 #main-nav li{
     list-style: none;
-    display: inline-block;
     text-align: center;
 }
 #main-nav a{
@@ -57,6 +58,18 @@ div{
     padding: 3px;
 }
 
+#main-image{
+    height: 100%;
+    width: 100%;
+}
+
+/*Div*/
+#GradSchool{
+    background-color: #73000a;
+    color: white;
+    display: inline-block;
+    max-width: fit-content;
+}
 
 /*Media*/
 @media only screen and (min-width:700px){
@@ -83,4 +96,8 @@ div{
   #main-nav li{
       flex:1;
   }
+  #Gateways li{
+    flex:1;
+  }
+
 }
