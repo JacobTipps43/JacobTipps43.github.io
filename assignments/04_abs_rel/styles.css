@@ -8,6 +8,9 @@ div{
 
 
 /*Header*/
+#top-logo{
+    padding-left: 0px;
+}
 #main-header{
     background-color: black;
 }
@@ -16,12 +19,12 @@ div{
 #Gateways ul{
     text-align: right;
     max-width: 50%;
-    padding-left: 0px;
+    padding-inline-start: 50%;
 }
 #Gateways li{
     list-style: none;
     color:white;
-    font-size: 8px;
+    font-size: 11px;
 }
 #Gateways a { 
     text-decoration: none;  /* no underline */
@@ -39,7 +42,8 @@ div{
     max-width: 95%;
 }
 #main-nav ul{
-    padding-left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 #main-nav li{
     list-style: none;
@@ -69,10 +73,24 @@ div{
     color: white;
     display: inline-block;
     max-width: fit-content;
+    position: absolute;
+    left: 5%;
+}
+#searchBox{
+    border: solid 1px white;
+    max-width: fit-content;
+    padding-right: 140px;
+    color: white;
+    position: absolute;
+    top: 85px;
+
+}
+#Grad{
+    background-color: white;
 }
 
 /*Media*/
-@media only screen and (min-width:700px){
+@media only screen and (min-width:850px){
     .columns {
       display: flex;
     }
@@ -98,6 +116,13 @@ div{
   }
   #Gateways li{
     flex:1;
+  }
+  #top-logo{
+    padding-left: 150px;
+  }
+  #searchBox{
+    top: 55px;
+    right:70px;
   }
 
 }
