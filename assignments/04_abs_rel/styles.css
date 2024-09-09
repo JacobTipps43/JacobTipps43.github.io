@@ -137,17 +137,14 @@ div{
 #Edu{
     background-color: #ececec;
 }
-p{
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-
-}
 #EduInv{
     padding-top: 5%;
     font-size: 35px;
     font-weight: 1000;
     color:#73000a;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 #Tuition{
     background-color: #73000a;
@@ -155,7 +152,11 @@ p{
     padding: 5px;
     font-size:20px;
     font-weight: 500;
-
+}
+#EduText{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 #Tuition a{
     text-decoration: none;
@@ -164,6 +165,97 @@ p{
 #Tuition a:hover{
     background-color: white;
     color: #73000a;
+}
+#paying{
+    margin-top: 10%;
+}
+#Pay{
+    color:#73000a;
+    font-size: 35px;
+    text-align: center;
+}
+#PayText{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#BigLinks{
+    max-width: 95%;
+    padding-left: 5%;
+}
+#BigLinks p{
+    margin-right: 5px;
+}
+#Headers a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #73000a;
+    font-size: 15px;
+}
+#steps{
+    background-color: black;
+}
+#stepsImg2{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 20%;
+}
+#steps p{
+    color: white;
+}
+#stepsHeader{
+    font-size: 40px;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+#stepsText{
+    padding-left: 10%;
+}
+#stepsApply{
+    background-color: #73000a;
+    border:solid 2px white;
+    max-width: fit-content;
+    padding: 1%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#secondNav a{
+    text-decoration: none;
+    color: white;
+}
+#secondNav li{
+    list-style-type: none;
+}
+#secondNav{
+    background-color: #73000a;
+    padding-left: 3%;
+    max-width: 90%;
+}
+#bottom-logo{
+    padding-left: 5%;
+}
+#secondNav p{
+    padding-left: 7%;
+    color: white;
+}
+#main-footer
+{
+    background-color: #73000a;
+}
+#secondFooter{
+    background-color: black;
+    max-height: fit-content;
+    padding: 1px;
+    padding-left: 3%;
+}
+#thirdNav li {
+    list-style-type: none;
+    margin-right: 4px;
+    font-size: 10px;
+}
+#thirdNav a{
+    text-decoration: none;
+    color: white;
 }
 
 /*Media*/
@@ -175,17 +267,14 @@ p{
   .one{
       flex:1;
   }
-
   .two{
-      flex:2;
+    flex:2;
   }
-
   .three{
-      flex:3;
+    flex:3;
   }
-
   .four{
-      flex:4;
+    flex: 4;
   }
 
   #main-nav li{
@@ -212,5 +301,11 @@ p{
     padding-left: 25%;
     padding-right: 25%;
 }
+    #BigLinks{
+    flex:1;
+    }
+    #secondNav {
+        flex-wrap: wrap;
+    }
 
 }
