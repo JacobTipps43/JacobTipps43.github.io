@@ -1,0 +1,26 @@
+body{
+    background-color: #617D51;
+}
+section{
+    background-color: #A751A7;
+    padding: 5px;
+    margin: 5px;
+}
+
+#btn-counter{
+    background-color: #A751A7;
+}
+#btn-img{
+    background-color: #A751A7;
+}
+
+
+@media only screen and (min-width:600px){
+    .columns {
+      display: flex;
+    }
+
+  .one{
+      flex:1;
+  }
+}
