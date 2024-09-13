@@ -19,6 +19,5 @@ buttonImage.onclick = () =>{
 };
 
 slider.oninput = function() {
-    output.textContent = this.value;
     image.style.paddingLeft = this.value + 'px';
 };
