@@ -7,11 +7,31 @@ section{
     margin: 5px;
 }
 
+h1{
+    color: #A751A7;
+}
+h3{
+    color: #A751A7;
+}
+
+#content h1{
+    color: #73BD4B;
+}
+#content h2{
+    color: #73BD4B;
+}
+
 #btn-counter{
     background-color: #A751A7;
+    display: block;
+    width: 100%;
 }
 #btn-img{
     background-color: #A751A7;
+}
+
+#imgSlide{
+    padding-left: slide;
 }
 
 

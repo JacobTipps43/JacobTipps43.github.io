@@ -8,16 +8,19 @@
         <center><h1>Assignment 5</h1></center>
         <center><h3>Intro to JavaScript</h3></center>
         <div id="content" class="columns">
-            <section class="one"><button id="btn-counter">
-                <center><h2>Count</h2></center>
-                <h2><span id="counter">0</span></h2>
-            </button></section>
+            <button id="btn-counter" class="one">
+                <center><h2>Count</h2>
+                <h1><span id="counter">0</span></h1></center>
+            </button>
             <section class="one">
                 <center><h2>Random Image</h2></center>
                 <center><button id="btn-img"><img src="https://picsum.photos/200?random=1"></button></center>
             </section>
             <section class="one">
-
+                <label for="myRange">Adjust value:</label>
+                <input type="range" id="myRange" min="0" max="200" value="0"><br>
+                <span id="sliderValue"></span>
+                <img id="myImage" src="images/image.png">
             </section>
         </div>
         <script src="script.js"></script>
