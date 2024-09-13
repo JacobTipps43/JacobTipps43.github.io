@@ -80,4 +80,12 @@ p{
     .one{
         flex:1;
     }
+
+    #Assignments{
+        flex-wrap: wrap;
+    }
+
+    #Assignments section {
+        flex:30%;
+    }
 }
