@@ -8,37 +8,19 @@ body{
     padding: 3px;
 }
 
-#main-content div{
-    text-align: center;
-    background-color: #bebebe;
+#main-content{
+    padding-left: 0px;
 }
-
-#main-nav{
-    background-color: #bebebe;
-    font-size: 20px;
-}
-#main-nav ul{
-    justify-content: space-around;
-    padding: 8px;
-    margin: 0;
-    border: solid 3px black;
-}
-#main-nav li{
-    list-style: none;
-    text-align: center;
-}
-#main-nav a{
-    text-decoration: none;
-    color: black;
-}
-#main-nav a:hover{
-    background-color: black;
-    color:white;
-    padding: 2px;
+#main-content h3{
+    padding-left: 0px;
 }
 
 table, th, td {
     border: 1px solid black;
+    font-size: 40px;
+}
+#tableHeader{
+    color: darkred;
 }
 
 @media only screen and (min-width:850px){
@@ -52,4 +34,11 @@ table, th, td {
   #main-nav{
     flex:1;
   }
+
+  #main-content{
+    padding-left: 45px;
+}
+#main-content h3{
+    padding-left: 120px;
+}
 }
