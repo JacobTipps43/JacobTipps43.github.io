@@ -23,6 +23,13 @@ body {
   }
   
   /* Main Navigation */
+  #toggle-nav div{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
   #main-nav ul {
     padding-left: 0px;
     margin: 0;
@@ -42,6 +49,14 @@ body {
   #main-nav a:hover {
     border-bottom: 1px solid black;
   }
+
+  #ball{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: relative;
+  }
   
   /* Typography */
   
@@ -52,6 +67,15 @@ body {
   h1 {
     text-align: center;
   }
+
+  /*Visibility*/
+  .hidden{
+    display: none;
+  }
+
+  .hidden-small{
+    display: none;
+  }
   
   /* Larger Resolutions */
   
@@ -60,6 +84,14 @@ body {
       flex: 1;
     }
     .columns {
+      display: flex;
+    }
+
+    #toggle-nav{
+      display: none;
+    }
+
+    hidden-small{
       display: flex;
     }
   }
