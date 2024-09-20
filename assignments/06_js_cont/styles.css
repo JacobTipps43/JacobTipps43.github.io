@@ -1,3 +1,7 @@
+:root{
+    --red1: 0;
+}
+
 body{
     background-color: #f1f2e9;
 }
@@ -5,20 +9,38 @@ body{
 text-align: center;
 color: #5e8b94;
 }
-#Exercise_1{
+#Main-content{
     background-color: #f2f0d5;
     width: 500px;
     height: fit-content;
     margin: auto;
     border: 1px solid #799ba5;
 }
-#Exercise_1 p{
+#Main-content p{
     margin: auto;
     text-align: center;
     padding-top: 5%;
     font-size: 25px;
     color: #5e8b94;
 }
+#Main-content-color{
+    background-color: rgb(var(--red1) 0 0);
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+}
+#Main-content-color p{
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+    color: white;
+}
+#myRange{
+    width: 80%;
+    accent-color: red;
+}
+
 #IF{
     text-align: center;
     color: #d98282;
@@ -62,7 +84,7 @@ color: #5e8b94;
     #main-nav li {
         flex: 1;
     }
-    #Exercise_1{
+    #Main-content{
         flex: 1;
     }
     .columns {
