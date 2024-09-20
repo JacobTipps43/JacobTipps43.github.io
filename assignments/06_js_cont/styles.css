@@ -1,0 +1,73 @@
+body{
+    background-color: #f1f2e9;
+}
+#Assignments{
+text-align: center;
+color: #5e8b94;
+}
+#Exercise_1{
+    background-color: #f2f0d5;
+    width: 500px;
+    height: fit-content;
+    margin: auto;
+    border: 1px solid #799ba5;
+}
+#Exercise_1 p{
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+    color: #5e8b94;
+}
+#IF{
+    text-align: center;
+    color: #d98282;
+}
+#main-nav a{
+    text-decoration: none;
+    color: #799ba5;
+    padding: 5px;
+}
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+#nav-button{
+    background-color: #f1f2e9;
+    border: none;
+    font-size: 25px;
+}
+#nav-button :hover{
+    background-color: #5e8b94;
+    color: #d98282;
+}
+.hidden{
+    display:none;
+}
+.hidden-small{
+    display: none;
+}
+
+#main-footer{
+    text-align: center;
+    color: #5e8b94;
+}
+
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        flex: 1;
+    }
+    #Exercise_1{
+        flex: 1;
+    }
+    .columns {
+        display: flex;
+    }
+    #toggle-nav{
+        display: none;
+    }
+    .hidden-small {
+        display: flex;
+    }
+}
