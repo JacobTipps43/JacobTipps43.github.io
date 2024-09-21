@@ -1,0 +1,88 @@
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+
+  #main-nav{
+    background-color: #bebebe;
+    font-size: 20px;
+}
+#main-nav ul{
+    justify-content: space-around;
+    padding: 8px;
+    margin: 0;
+    border: solid 3px black;
+}
+#main-nav li{
+    list-style: none;
+    text-align: center;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav a:hover{
+    background-color: black;
+    color:white;
+    padding: 2px;
+}
+
+#main-header{
+    background-color: #bebebe;
+    padding-bottom: 0.1px;
+}
+#main-header h1{
+    text-align: center;
+    font-size: 40px;
+}
+#main-header a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+#tableNames{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #bebebe;
+}
+
+#Weapons{
+    text-align: center;
+}
+#Weapons section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+.hidden-small{
+    display:none;
+  }
+@media only screen and (min-width:850px){
+    .columns {
+      display: flex;
+    }
+
+  .one{
+      flex:1;
+  }
+
+  #Weapons {
+    flex-wrap: wrap;
+    }
+
+#Weapons section {
+    flex:30%;
+}
+#main-nav{
+    flex:1;
+  }
+  #toggle-nav {
+    display:none;
+  }
+  .hidden-small {
+    display:flex;
+  }
+}
