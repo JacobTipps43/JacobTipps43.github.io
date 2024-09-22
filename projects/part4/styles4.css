@@ -20,6 +20,45 @@
     border: solid 1px black;
     padding-bottom: 5px;
 }
+#main-nav{
+    background-color: #bebebe;
+    font-size: 20px;
+}
+#main-nav ul{
+    justify-content: space-around;
+    padding: 8px;
+    margin: 0;
+    border: solid 3px black;
+}
+#main-nav li{
+    list-style: none;
+    text-align: center;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav a:hover{
+    background-color: black;
+    color:white;
+    padding: 2px;
+}
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+
+.hidden-small{
+    display:none;
+  }
+  #tableNames{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #bebebe;
+}
 
 @media only screen and (min-width:850px){
     .columns {
@@ -35,6 +74,12 @@
     }
 
 #Talismans section {
-    flex:50%;
+    flex:30%;
 }
+#toggle-nav {
+    display:none;
+  }
+  .hidden-small {
+    display:flex;
+  }
 }
