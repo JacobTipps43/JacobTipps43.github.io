@@ -1,8 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #b07a43;
 }
 #main-header{
-    background-color: #bebebe;
+    background-color: #476747;
+    color: #1a2324;
     padding-bottom: 0.1px;
 }
 #main-header h1{
@@ -20,17 +22,15 @@ body{
     text-align: center;
     font-size: 30px;
     font-weight: 500;
-    background-color: #bebebe;
-}
-
-#weaponimages{
-    width: 200px;
-    height: 200px;
+    background-color: #476747;
+    color: #1a2324;
 }
 
 table, th, td {
     border: 1px solid black;
     font-size: 40px;
+    background-color: #dbd2b0;
+    color: #1a2324;
 }
 #tableHeader{
     color: darkred;
@@ -53,8 +53,9 @@ table, th, td {
 
 /*Nav*/
 #main-nav{
-    background-color: #bebebe;
+    background-color: #f2d16c;
     font-size: 20px;
+    color: #1a2324;
 }
 #main-nav ul{
     justify-content: space-around;

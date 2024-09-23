@@ -93,4 +93,11 @@ img{
     #Assignments section {
         flex:30%;
     }
+    #Projects{
+        flex-wrap: wrap;
+    }
+
+    #Projects section {
+        flex:30%;
+    }
 }
