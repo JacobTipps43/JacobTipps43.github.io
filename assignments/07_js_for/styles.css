@@ -1,0 +1,35 @@
+body{
+    background-color: #f1f2e9;
+}
+h1{
+    color: #5c878c;
+    text-align: center;
+}
+h2{
+    color: #d98282;
+    text-align: center;
+}
+#starfield {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#main-content {
+    width: 520px;
+    height: 600px;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: #2e4f4f;
+}
+#error{
+    color: red;
+}
+.hidden{
+    display: none;
+}
