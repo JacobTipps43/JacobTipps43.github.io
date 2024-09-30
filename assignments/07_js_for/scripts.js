@@ -18,8 +18,8 @@ btn.onclick = () =>{
             const star = document.createElement("div");
             star.classList.add("star");
 
-            const x = Math.random();
-            const y = Math.random();
+            const x = Math.random()*500;
+            const y = Math.random()*500;
 
             star.style.left = `${x}px`;
             star.style.top = `${y}px`;
