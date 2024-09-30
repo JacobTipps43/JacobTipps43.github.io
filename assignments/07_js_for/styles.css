@@ -13,13 +13,13 @@ h2{
     background-color: black;
     width: 500px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0.6%;
     margin-top: 30px;
+    position: absolute;
 }
 #main-content {
     width: 520px;
-    height: 600px;
+    height: 650px;
     color: white;
     font-size: 20px;
     margin-left: auto;
@@ -34,9 +34,21 @@ h2{
     display: none;
 }
 .star {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     background-color: red;
     position: absolute;
-    border-radius: 50%;
+    background-color: yellow; /* Color of the star */
+    clip-path: polygon(
+    50% 0%,
+    61.8% 35%,
+    100% 35%,
+    69.1% 57.5%,
+    79.4% 91%,
+    50% 70%,
+    20.6% 91%,
+    30.9% 57.5%,
+    0% 35%,
+    38.2% 35%
+    );
   }
