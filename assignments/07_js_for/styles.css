@@ -33,3 +33,10 @@ h2{
 .hidden{
     display: none;
 }
+.star {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+  }
