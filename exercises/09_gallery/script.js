@@ -7,7 +7,8 @@ const slide = () =>{
     currentImage.classList.add("hidden");
 
     let nextImage = currentImage.nextElementSibling;
-    
+   
+    //reached the end of list
     if(nextImage == null){
         nextImage = document.querySelector("#slideshow :first-child");
     }
@@ -15,4 +16,4 @@ const slide = () =>{
     nextImage.classList.remove("hidden");
 };
 
-setInterval(slide, 2000);
+setInterval(slide, 1500);
