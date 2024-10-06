@@ -78,13 +78,16 @@ body{
   .one{
       flex:1;
   }
+  .three{
+    flex: 3;
+  }
 
   #Locations {
     flex-wrap: wrap;
     }
 
 #Locations section {
-    flex:30%;
+    flex:40%;
 }
 #toggle-nav {
     display:none;

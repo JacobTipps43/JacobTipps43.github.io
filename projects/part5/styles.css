@@ -64,6 +64,7 @@ body{
 
 #images{
     display: none;
+
   }
 
 .hidden-small{
@@ -86,6 +87,7 @@ body{
   }
   #images{
     display: flex;
+
   }
   #spacer{
     display: flex;
