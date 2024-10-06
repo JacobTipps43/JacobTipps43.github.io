@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Transcription</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #transcription {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            width: 80%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Transcription</h1>
+    <button id="transcribeButton">Start Transcribing</button>
+    <div id="transcription">Transcription will appear here...</div>
+
+    <script>
+        const transcribeButton = document.getElementById("transcribeButton");
+        const transcriptionDiv = document.getElementById("transcription");
+        let isTranscribing = false;
+        let recognition;
+
+        // Check if SpeechRecognition is available
+        if ("webkitSpeechRecognition" in window || "SpeechRecognition" in window) {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = "en-US";
+
+            recognition.onresult = (event) => {
+                let transcript = "";
+                for (let i = 0; i < event.results.length; i++) {
+                    transcript += event.results[i][0].transcript;
+                }
+                transcriptionDiv.textContent = transcript;
+            };
+
+            recognition.onerror = (event) => {
+                console.error("Speech recognition error detected: ", event.error);
+            };
+        } else {
+            alert("Your browser does not support speech recognition. Please try using Google Chrome.");
+        }
+
+        transcribeButton.addEventListener("click", () => {
+            if (!isTranscribing) {
+                recognition.start();
+                transcribeButton.textContent = "Stop Transcribing";
+                transcriptionDiv.textContent = "Listening...";
+            } else {
+                recognition.stop();
+                transcribeButton.textContent = "Start Transcribing";
+                readBackTranscription(transcriptionDiv.textContent);
+            }
+            isTranscribing = !isTranscribing;
+        });
+
+        function readBackTranscription(text) {
+            const speechSynthesis = window.speechSynthesis;
+            if (speechSynthesis) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                speechSynthesis.speak(utterance);
+            } else {
+                alert("Your browser does not support speech synthesis.");
+            }
+        }
+    </script>
+</body>
+</html>
