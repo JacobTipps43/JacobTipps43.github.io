@@ -17,12 +17,9 @@ const showMargs = async() => {
         document.getElementById("cocktails").append(section);
 
         //create the heading
-        const a = document.createElement("a");
-        a.href= marg.strInstructions;
-        section.append(a);
         const h3 = document.createElement("h3");
         h3.innerHTML = marg.strDrink;
-        a.append(h3);
+        section.append(h3);
 
         //marg type
         const p = document.createElement("p");
