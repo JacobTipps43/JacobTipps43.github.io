@@ -26,6 +26,26 @@ body {
   color: blanchedalmond;
 }
 
+#cocktails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cocktails section{
+  background-color: purple;
+  text-align: center;
+  padding: 10px;
+}
+
+#cocktails img {
+  width: 200px;
+  height: auto;
+}
+
 /* Hamburger Menu */
 #nav-toggle div {
   width: 35px;
