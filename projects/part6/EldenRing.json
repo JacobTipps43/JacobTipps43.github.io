@@ -109,6 +109,33 @@
                 "img": "images/weapons/Helice.png",
                 "description": "Bloody Helice is a unique weapon, known for its swift, graceful attacks and distinctive design. This spear excels in quick strikes and bleed buildup. The Blood Surge Ash of War enables the wielder to perform a rapid thrust that sends out a wave of blood, inflicting damage and applying bleed status to enemies, making it a lethal option for aggressive combatants."
             }
+        ],
+        "FaithWeapons": [
+            {
+                "name": "Blasphemous Blade",
+                "img": "images/weapons/Blasphemous_Blade.png",
+                "description": "Considered the best weapon in the entire game, the Blasphemous Blade is a powerful weapon with a striking design that reflects its dark lore. It delivers heavy damage with each swing. The Taker's Flames Ash of War allows the wielder to unleash a fiery attack that restores health based on damage dealt, making it a formidable choice in both offense and sustainability during combat."
+            },
+            {
+                "name": "Godslayer's Greatsword",
+                "img": "images/weapons/Godslayer_Greatsword.png",
+                "description": "The Godslayer's Greatsword is an imposing weapon that exudes dark elegance. It delivers devastating damage with powerful strikes. The Godslayer's Flame Ash of War unleashes a fiery attack that inflicts both physical and fire damage, making it a fearsome choice for overwhelming enemies in battle."
+            },
+            {
+                "name": "Winged Scythe",
+                "img": "images/weapons/Winged_Scythe.png",
+                "description": "The Winged Scythe is a striking weapon with a unique design that combines elegance and lethality. It delivers sweeping, powerful attacks. The Horde of Scythes Ash of War unleashes a series of slashes that release a wave of spectral scythes, damaging enemies from a distance and making it a formidable option for crowd control in combat."
+            },
+            {
+                "name": "Maliketh's Black Blade",
+                "img": "images/weapons/Maliketh_Black_Blade.png",
+                "description": "Maliketh's Black Blade is a formidable weapon that embodies dark elegance and lethal precision. Its powerful strikes deal significant damage. The Black Blade Ash of War allows the wielder to perform a devastating attack that cuts through foes and applies a unique status effect, making it a fearsome choice in any confrontation."
+            },
+            {
+                "name": "Sacred Relic Sword",
+                "img": "images/weapons/Sacred_Relic_Sword.png",
+                "description": "The Sacred Relic Sword is a majestic weapon that exudes divine power. It delivers heavy, impactful strikes. The Golden Order Greatsword Ash of War unleashes a powerful wave of light that damages enemies in its path, making it a formidable choice for both offense and area control in battle."
+            } 
         ]
         }
     ]
