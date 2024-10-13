@@ -1,0 +1,34 @@
+{
+    "Weapons":[
+        {
+            "StrengthWeapons":[
+                {
+                    "name":"Greatsword",
+                    "img":"images/weapons/Greatsword.png",
+                    "description":"The Greatsword in Elden Ring is a massive, heavy weapon, dealing devastating damage with wide swings. When paired with the Lion’s Claw Ash of War, it becomes even more powerful, allowing for a fierce, leaping attack that crushes enemies with overwhelming force."
+                },
+                {
+                    "name":"Grafted Blade Greatsword",
+                    "img":"images/weapons/Grafted.png",
+                    "description":"The Grafted Blade Greatsword is a colossal sword forged from countless smaller blades, symbolizing power through conquest. This heavy weapon excels in raw damage and scales well with Strength. Its unique Oath of Vengeance Ash of War temporarily boosts all stats, increasing attack power and defense, making you a juggernaut in battle."
+                },
+                {
+                    "name":"Prelate's Inferno Crozier",
+                    "img":"images/weapons/Prelates.png",
+                    "description":"The Prelate's Inferno Crozier is a colossal, flame-scorched hammer, delivering devastating fiery blows. Its Prelate’s Charge Ash of War lets you charge forward, hammer ablaze, crushing everything in your path with fiery destruction."
+                },
+                {
+                    "name":"Greatsword Of Solitude",
+                    "img":"images/weapons/Solitude.png",
+                    "description":"The Greatsword of Solitude is a massive, somber blade, dealing heavy, slow strikes. Its Silent Resolve Ash of War surrounds the wielder in a calming aura, briefly boosting poise and reducing incoming damage, allowing for steadfast attacks amidst overwhelming odds."
+                },
+                {
+                    "name":"Rusted Anchor",
+                    "img":"images/weapons/Anchor.png",
+                    "description":"The Rusted Anchor is a heavy weapon, delivering powerful, sweeping strikes. Its Anchor’s Grip Ash of War slams the weapon into the ground, creating a shockwave that disrupts and damages nearby enemies."
+                }
+
+            ]
+        }
+    ]
+}
