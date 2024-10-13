@@ -16,24 +16,49 @@ const getWeapons = async() => {
 const showWeapons = async() => {
     const Weps = await getWeapons();
 
-    Weps.Weapons.StrengthWeapons.forEach((Weapon)=>{
+    Weps.Weapons[0].StrengthWeapons.forEach((weapon) =>{
         const section = document.createElement("section");
         section.classList.add("Weps");
+        section.classList.add("one");
         document.getElementById("Weapons-strength").append(section);
 
         //create the heading
         const p1 = document.createElement("p");
-        p1.innerHTML = Weapon.name;
+        p1.innerHTML = weapon.name;
         section.append(p1);
 
         //Weapon image
         const img = document.createElement("img");
-        img.src = Weapon.image;
+        img.src = weapon.img;
+        img.id = "weaponimages"
         section.append(img);
 
         //Weapon description
         const p2 = document.createElement("p");
-        p2.innerHTML = Weapon.description;
+        p2.innerHTML = weapon.description;
+        section.append(p2);
+    });
+
+    Weps.Weapons[1].DexterityWeapons.forEach((weapon) =>{
+        const section = document.createElement("section");
+        section.classList.add("Weps");
+        section.classList.add("two");
+        document.getElementById("Weapons-dexterity").append(section);
+
+        //create the heading
+        const p1 = document.createElement("p");
+        p1.innerHTML = weapon.name;
+        section.append(p1);
+
+        //Weapon image
+        const img = document.createElement("img");
+        img.src = weapon.img;
+        img.id = "weaponimages"
+        section.append(img);
+
+        //Weapon description
+        const p2 = document.createElement("p");
+        p2.innerHTML = weapon.description;
         section.append(p2);
     });
 }

@@ -8,6 +8,10 @@ body{
     background-color:black;
     margin:6px 0;
   }
+  #weaponimages{
+    height: 200px;
+    width: 200px;
+  }
 
   #main-nav{
     background-color: #f2d16c;
@@ -58,12 +62,22 @@ body{
 }
 
 
-#Weapons{
+#Weapons-strength{
     text-align: center;
     background-color: #dbd2b0;
     color: #1a2324;
 }
-#Weapons section{
+#Weapons-strength section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Weapons-dexterity{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-dexterity section{
     border: solid 1px black;
     padding-bottom: 5px;
 }
@@ -79,11 +93,19 @@ body{
       flex:1;
   }
 
-  #Weapons {
+  #Weapons-strength {
     flex-wrap: wrap;
     }
 
-#Weapons section {
+#Weapons-strength section {
+    flex:30%;
+}
+
+#Weapons-dexterity {
+    flex-wrap: wrap;
+    }
+
+#Weapons-dexterity section {
     flex:30%;
 }
 #main-nav{
@@ -95,4 +117,5 @@ body{
   .hidden-small {
     display:flex;
   }
+  
 }

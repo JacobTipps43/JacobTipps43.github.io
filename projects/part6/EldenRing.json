@@ -28,6 +28,33 @@
                     "description":"The Rusted Anchor is a heavy weapon, delivering powerful, sweeping strikes. Its Anchor’s Grip Ash of War slams the weapon into the ground, creating a shockwave that disrupts and damages nearby enemies."
                 }
 
+            ],
+            "DexterityWeapons":[
+                {
+                    "name":"Uchigatana",
+                    "img":"images/weapons/Uchigatana.png",
+                    "description":"The Uchigatana is a sleek katana, known for its quick strikes and impressive bleed buildup. Its Unsheathe Ash of War allows for a swift, devastating draw attack that catches foes off guard, making it a deadly choice for agile combatants seeking precision and speed."
+                },
+                {
+                    "name":"Nagakiba",
+                    "img":"images/weapons/Nagakiba.png",
+                    "description":"The Nagakiba is a long, elegant katana with extended reach. Its design enhances quick, sweeping attacks and bleed buildup. Equipped with the Unsheathe Ash of War, it allows for a swift, devastating draw attack that strikes with deadly precision, making it a formidable choice in battle."
+                },
+                {
+                    "name":"The Dancing Blade of Ranah",
+                    "img":"images/weapons/Rahan.png",
+                    "description":"The Dancing Blade of Ranah is an elegant sword, delivering fluid, graceful attacks. Its Moonlit Dance Ash of War unleashes rapid slashes followed by a powerful thrust, making it a mesmerizing weapon that combines beauty and deadly precision."
+                },
+                {
+                    "name":"Hand of Malenia",
+                    "img":"images/weapons/HandMalenia.png",
+                    "description":"The Hand of Malenia is a graceful, curved blade designed for swift, precise attacks. Its unique aesthetic reflects the elegance of its namesake. Its Waterfoul Ash of War allows for a powerful, rapid flurry of strikes, making it a lethal choice that embodies speed and finesse in combat."
+                },
+                {
+                    "name":"Rivers of Blood",
+                    "img":"images/weapons/Rivers.png",
+                    "description":"The Rivers of Blood is a deadly katana, known for its exceptional bleed buildup. Its striking design complements its swift, lethal attacks. The Corpse Piler Ash of War unleashes a series of slashes that send out a wave of blood, devastating enemies and making it a formidable choice in both PvE and PvP."
+                }
             ]
         }
     ]
