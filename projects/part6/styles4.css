@@ -18,15 +18,61 @@ body{
     font-size: 20px;
 }
 
-#Talismans{
+#talismanimages{
+    height: 250px; 
+    width: auto;
+}
+
+#Talismans-strength{
     text-align: center;
     background-color: #dbd2b0;
     color: #1a2324;
 }
-#Talismans section{
+#Talismans-strength section{
     border: solid 1px black;
     padding-bottom: 5px;
 }
+
+#Talismans-dexterity{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-dexterity section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-mage{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-mage section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-arcane{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-arcane section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-faith{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-faith section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
 #main-nav{
     background-color: #f2d16c;
     color: #1a2324;
@@ -78,13 +124,48 @@ body{
       flex:1;
   }
 
-  #Talismans {
+  #Talismans-strength {
     flex-wrap: wrap;
     }
 
-#Talismans section {
+#Talismans-strength section {
     flex:30%;
 }
+
+#Talismans-dexterity {
+    flex-wrap: wrap;
+    }
+
+#Talismans-dexterity section {
+    flex:30%;
+}
+
+#Talismans-mage {
+    flex-wrap: wrap;
+    }
+
+#Talismans-mage section {
+    flex:30%;
+}
+
+#Talismans-arcane {
+    flex-wrap: wrap;
+    }
+
+#Talismans-arcane section {
+    flex:30%;
+}
+
+#Talismans-faith {
+    flex-wrap: wrap;
+    }
+
+#Talismans-faith section {
+    flex:30%;
+}
+
+  
+
 #toggle-nav {
     display:none;
   }
