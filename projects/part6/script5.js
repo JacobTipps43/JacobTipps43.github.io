@@ -38,6 +38,98 @@ const showLocations = async() => {
         p2.innerHTML = location.description;
         section.append(p2);
     });
+
+    Locs.Locations[0].DexterityLocations.forEach((location) => {
+        const section = document.createElement("section");
+        section.classList.add("Loc");
+        section.classList.add("one");
+        document.getElementById("Dexterity-Locations").append(section);
+    
+        // Create the heading
+        const p1 = document.createElement("p");
+        p1.innerHTML = location.name;
+        section.append(p1);
+    
+        // Location image
+        const img = document.createElement("img");
+        img.src = location.img;
+        img.id = "locationimages";
+        section.append(img);
+    
+        // Location description
+        const p2 = document.createElement("p");
+        p2.innerHTML = location.description;
+        section.append(p2);
+    });
+
+    Locs.Locations[0].MageLocations.forEach((location) => {
+        const section = document.createElement("section");
+        section.classList.add("Loc");
+        section.classList.add("one");
+        document.getElementById("Mage-Locations").append(section);
+    
+        // Create the heading
+        const p1 = document.createElement("p");
+        p1.innerHTML = location.name;
+        section.append(p1);
+    
+        // Location image
+        const img = document.createElement("img");
+        img.src = location.img;
+        img.id = "locationimages";
+        section.append(img);
+    
+        // Location description
+        const p2 = document.createElement("p");
+        p2.innerHTML = location.description;
+        section.append(p2);
+    });
+
+    Locs.Locations[0].ArcaneLocations.forEach((location) => {
+        const section = document.createElement("section");
+        section.classList.add("Loc");
+        section.classList.add("one");
+        document.getElementById("Arcane-Locations").append(section);
+    
+        // Create the heading
+        const p1 = document.createElement("p");
+        p1.innerHTML = location.name;
+        section.append(p1);
+    
+        // Location image
+        const img = document.createElement("img");
+        img.src = location.img;
+        img.id = "locationimages";
+        section.append(img);
+    
+        // Location description
+        const p2 = document.createElement("p");
+        p2.innerHTML = location.description;
+        section.append(p2);
+    });
+
+    Locs.Locations[0].FaithLocations.forEach((location) => {
+        const section = document.createElement("section");
+        section.classList.add("Loc");
+        section.classList.add("one");
+        document.getElementById("Faith-Locations").append(section);
+    
+        // Create the heading
+        const p1 = document.createElement("p");
+        p1.innerHTML = location.name;
+        section.append(p1);
+    
+        // Location image
+        const img = document.createElement("img");
+        img.src = location.img;
+        img.id = "locationimages";
+        section.append(img);
+    
+        // Location description
+        const p2 = document.createElement("p");
+        p2.innerHTML = location.description;
+        section.append(p2);
+    });
 }
 
 showLocations();

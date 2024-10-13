@@ -18,12 +18,57 @@ body{
     font-size: 20px;
 }
 
-#Locations{
+#locationimages{
+    width: auto;
+    height: 200px;
+}
+
+#Strength-Locations{
     text-align: center;
     background-color: #dbd2b0;
     color: #1a2324;
 }
-#Locations section{
+#Strength-Locations section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Dexterity-Locations{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Dexterity-Locations section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Mage-Locations{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Mage-Locations section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Arcane-Locations{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Arcane-Locations section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Faith-Locations{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Faith-Locations section{
     border: solid 1px black;
     padding-bottom: 5px;
 }
@@ -82,11 +127,43 @@ body{
     flex: 3;
   }
 
-  #Locations {
+  #Strength-Locations {
     flex-wrap: wrap;
     }
 
-#Locations section {
+#Strength-Locations section {
+    flex:40%;
+}
+
+#Dexterity-Locations {
+    flex-wrap: wrap;
+    }
+
+#Dexterity-Locations section {
+    flex:40%;
+}
+
+#Mage-Locations {
+    flex-wrap: wrap;
+    }
+
+#Mage-Locations section {
+    flex:40%;
+}
+
+#Arcane-Locations {
+    flex-wrap: wrap;
+    }
+
+#Arcane-Locations section {
+    flex:40%;
+}
+
+#Faith-Locations {
+    flex-wrap: wrap;
+    }
+
+#Faith-Locations section {
     flex:40%;
 }
 #toggle-nav {
