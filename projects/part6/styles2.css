@@ -91,6 +91,17 @@ body{
     border: solid 1px black;
     padding-bottom: 5px;
 }
+
+#Weapons-faith{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-faith section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
 .hidden-small{
     display:none;
   }
@@ -124,6 +135,14 @@ body{
     }
     
 #Weapons-magic section {
+    flex:30%;
+}
+
+#Weapons-faith {
+    flex-wrap: wrap;
+    }
+
+#Weapons-faith section {
     flex:30%;
 }
 #main-nav{
