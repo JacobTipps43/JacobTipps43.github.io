@@ -81,6 +81,16 @@ body{
     border: solid 1px black;
     padding-bottom: 5px;
 }
+
+#Weapons-magic{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-magic section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
 .hidden-small{
     display:none;
   }
@@ -106,6 +116,14 @@ body{
     }
 
 #Weapons-dexterity section {
+    flex:30%;
+}
+
+#Weapons-magic {
+    flex-wrap: wrap;
+    }
+    
+#Weapons-magic section {
     flex:30%;
 }
 #main-nav{
