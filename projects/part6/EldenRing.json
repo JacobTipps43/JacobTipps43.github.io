@@ -230,7 +230,7 @@
     ],
     "Locations":[
         {
-            "StrenghtLocations":[
+            "StrengthLocations":[
                 {
                     "name": "Greatsword",
                     "img": "images/weapons/Greatsword.png",

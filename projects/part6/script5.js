@@ -16,26 +16,26 @@ const getLocations = async() => {
 const showLocations = async() => {
     const Locs = await getLocations();
 
-    Locs.Locations[0].StrenghtLocations.forEach((location) =>{
+    Locs.Locations[0].StrengthLocations.forEach((location) => {
         const section = document.createElement("section");
         section.classList.add("Loc");
         section.classList.add("one");
         document.getElementById("Strength-Locations").append(section);
-
-        //create the heading
+    
+        // Create the heading
         const p1 = document.createElement("p");
         p1.innerHTML = location.name;
         section.append(p1);
-
-        //Location image
+    
+        // Location image
         const img = document.createElement("img");
         img.src = location.img;
-        img.id = "locationimages"
+        img.id = "locationimages";
         section.append(img);
-
-        //Location description
+    
+        // Location description
         const p2 = document.createElement("p");
-        p2.innerHTML = location.description
+        p2.innerHTML = location.description;
         section.append(p2);
     });
 }
