@@ -55,7 +55,34 @@
                     "img":"images/weapons/Rivers.png",
                     "description":"The Rivers of Blood is a deadly katana, known for its exceptional bleed buildup. Its striking design complements its swift, lethal attacks. The Corpse Piler Ash of War unleashes a series of slashes that send out a wave of blood, devastating enemies and making it a formidable choice in both PvE and PvP."
                 }
-            ]
+            ],
+            "MageWeapons": [
+            {
+                "name": "Dark Moon Greatsword",
+                "img": "images/weapons/DarkMoon.png",
+                "description": "The Dark Moon Greatsword is a powerful, elegant weapon, known for its magical prowess. Its unique design reflects the moon's beauty and strength. The Moonlight Greatsword Ash of War allows for a charged magical attack that releases a wave of moonlight, dealing significant damage and enhancing the sword's mystical allure in battle."
+            },
+            {
+                "name": "Fallingstar Beast Jaw",
+                "img": "images/weapons/FallingStar.png",
+                "description": "The Fallingstar Beast Jaw is a massive, monstrous weapon crafted from the jaw of a fallen Star Beast. Its brutal design delivers heavy, crushing strikes. The Beast Roar Ash of War unleashes a powerful roar that boosts damage and enhances the wielder's attacks, embodying the ferocity of the beast it came from."
+            },
+            {
+                "name": "Azur's Glintstone staff",
+                "img": "images/weapons/Azur_Staff.png",
+                "description": "Azur's Glintstone Staff is a powerful catalyst, known for its high sorcery scaling. Its elegant design channels the magic of the stars. The Glintstone Sorcery Ash of War enhances sorcery spells cast with the staff, boosting their potency and allowing for devastating magical attacks that pierce through foes with glintstone brilliance."
+            },
+            {
+                "name": "Rotten Crystal Sword",
+                "img": "images/weapons/RottenSword.png",
+                "description": "The Rotten Crystal Sword is a unique weapon that combines beauty and decay. Its striking design features crystalline elements that emit a toxic aura. The Crystal Release Ash of War unleashes a powerful thrust that releases a wave of rot, dealing damage over time and inflicting a debilitating status effect on enemies."
+            },
+            {
+                "name": "Scepter Of The All-Knowing",
+                "img": "images/weapons/AllKnowing.png",
+                "description": "The Scepter of the All-Knowing is a powerful staff, embodying the essence of wisdom and arcane knowledge. Its intricate design allows for enhanced sorcery. The Scepter’s Insight Ash of War boosts the potency of sorcery spells cast with the staff, providing a significant advantage in magical combat and unlocking the secrets of the arcane."
+            }
+        ]
         }
     ]
 }

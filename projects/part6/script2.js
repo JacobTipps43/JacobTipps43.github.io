@@ -39,10 +39,10 @@ const showWeapons = async() => {
         section.append(p2);
     });
 
-    Weps.Weapons[1].DexterityWeapons.forEach((weapon) =>{
+    Weps.Weapons[0].DexterityWeapons.forEach((weapon) =>{
         const section = document.createElement("section");
         section.classList.add("Weps");
-        section.classList.add("two");
+        section.classList.add("one");
         document.getElementById("Weapons-dexterity").append(section);
 
         //create the heading
