@@ -227,5 +227,95 @@
             }
         ]
         }
+    ],
+    "Locations":[
+        {
+            "StrenghtLocations":[
+                {
+                    "name": "Greatsword",
+                    "img": "images/weapons/Greatsword.png",
+                    "description": "The Greatsword is located inside a coffin carriage chest on the western side of the Caelid Region, along the road past the Rotview Balcony and northwest of the Caelid Ruins. Be wary of the scavenging giant dogs nearby, as they can be deadly if confronted all at once—approach the carriage with caution."
+                },
+                {
+                    "name": "Bullgate Armor",
+                    "img": "images/Armor/bullgate-set.png",
+                    "description": "You can acquire the Bullgoat Set after defeating the powerful Great Horned Tragoth in the Altus Plateau. This battle takes place during the interconnected questlines of Tanith and Patches, adding depth to your journey. Be ready for a challenging encounter, as Tragoth guards this sought-after armor set, known for its exceptional poise and defensive capabilities."
+                },
+                {
+                    "name": "Great-Jar’s Arsenal",
+                    "img": "images/talismans/Great-Jar_Arsenal.png",
+                    "description": "The Great-Jar's Arsenal is obtained from the Great Jar in front of a colosseum in western Caelid's Dragonbarrow, reachable via the Deep Siofra Well. To earn it, summon and defeat three randomly chosen Great Jar Knights with red summon signs. Each knight wields powerful legendary weapons, so prepare for a challenging fight without dying."
+                }
+            ],
+            "DexterityLocations": [
+            {
+                "name": "Rivers of Blood",
+                "img": "images/weapons/Rivers.png",
+                "description": "Rivers of Blood is a unique katana in Elden Ring, found exclusively in the hands of the invading NPC boss, Bloody Finger Okina. You can encounter Okina in the southern Mountaintops of the Giants, near the Church of Repose, where you’ll need to defeat him to claim this powerful weapon."
+            },
+            {
+                "name": "Hoslow's Set",
+                "img": "images/Armor/hoslow-set.png",
+                "description": "Hoslow's Armor can be found in Elden Ring as all pieces of Hoslow's Set are dropped by Juno Hoslow, along with Hoslow's Petal Whip. Juno Hoslow is a hostile NPC you can invade after progressing through the Volcano Manor questline, and he drops the armor as part of the final contract."
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "img": "images/talismans/Prosthesis-Wearer_Heirloom.png",
+                "description": "The Prosthesis-Wearer Heirloom can be obtained by completing Sage Gowry's questline in Caelid. First, defeat Commander O'Neil in the Swamp of Aeonia to acquire the Unalloyed Gold Needle. Then, return to Milicent, give her the needle, and rest to receive your reward."
+            }
+        ],
+        "MageLocations": [
+            {
+                "name": "Azur's Glintstone Staff",
+                "img": "images/weapons/Azur_Staff.png",
+                "description": "Azur's Glintstone Staff is located in the Academy of Raya Lucaria, specifically on the second floor of the Church of the Cuckoo in Liurnia. You'll find it in a room guarded by a Page. Accessing the staff is straightforward if you've kicked down the ladder shortcut in the Church."
+            },
+            {
+                "name": "Spellblade Set",
+                "img": "images/Armor/spellblade-set.png",
+                "description": "The Spellblade Set in Elden Ring enhances sorcery and features a unique look. To collect the complete set, defeat specific enemies and bosses, primarily found in areas like the Raya Lucaria Academy. Wearing this set boosts your magical abilities, making it ideal for sorcerers."
+            },
+            {
+                "name": "Godfrey Icon",
+                "img": "images/talismans/Godfrey_Icon.png",
+                "description": "The Godfrey Icon is obtained by defeating Godefroy the Grafted, a challenging boss in the Golden Lineage Evergaol, located in the southern Altus Plateau, just below the Grand Lift of Dectus. After defeating Godefroy, you’ll receive the Godfrey Icon, which enhances your charged spells and incantations, making it a valuable asset for magic users."
+            }
+        ],
+        "ArcaneLocations": [
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "img": "images/weapons/Sacred_Spear.png",
+                "description": "Mohgwyn's Sacred Spear can be obtained from Finger Reader Enia in exchange for the Remembrance of the Blood Lord. This remembrance is earned by defeating Mohg, Lord of Blood, the Shardbearer Boss located at the top of Mohgwyn's Palace."
+            },
+            {
+                "name": "War Surgeon Set",
+                "img": "images/Armor/war_surgeon_set.png",
+                "description": "The War Surgeon Set is a complete armor set in *Elden Ring* that you can obtain by defeating all three Nameless White Mask invaders in Mohgwyn Palace, located in the Siofra River region. This set consists of the White Mask, War Surgeon Gown, War Surgeon Gloves, and War Surgeon Trousers, making it a distinctive choice for those seeking a unique look and enhanced protection."
+            },
+            {
+                "name": "Lord of Blood’s Exultation",
+                "img": "images/talismans/Lord_of_Blood_Exultation.png",
+                "description": "The Lord of Blood's Exultation can be acquired by defeating Esgar, Priest of Blood, a boss located in the mini dungeon of Leyndell Catacombs. This dungeon is situated deep below Leyndell, Royal Capital, within the Subterranean Shunning-Grounds. To find the entrance, look for it at the bottom of a large room filled with pipes, where Giant Crayfish patrol the muddy floor."
+            }
+        ],
+        "FaithLocations": [
+            {
+                "name": "Blasphemous Blade",
+                "img": "images/weapons/Blasphemous_Blade.png",
+                "description": "The Blasphemous Blade can be obtained from Finger Reader Enia in exchange for the Remembrance of the Blasphemous. This remembrance is earned by defeating the Shardbearer Boss, Rykard, Lord of Blasphemy, who rules over the Volcano Manor in Mt. Gelmir."
+            },
+            {
+                "name": "Haligtree Knight Set",
+                "img": "images/Armor/haligtree_knight_set.png",
+                "description": "The Haligtree Knight Set is a complete attire found in *Elden Ring*, located in the room above the Elphael Inner Wall grace site in the Haligtree. This set includes the Haligtree Knight Helm, Haligtree Knight Armor, Haligtree Knight Gauntlets, and Haligtree Knight Greaves, making it a striking choice for those seeking both style and protection."
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "img": "images/talismans/Radagon_Soreseal.png",
+                "description": "Radagon's Soreseal can be found at Fort Faroth, situated on the eastern cliffs of Caelid's Dragonbarrow region. This talisman enhances several attributes, making it a valuable item for builds focused on strength and resilience."
+            }
+        ]
+        }
     ]
+
 }
