@@ -89,7 +89,7 @@ const showWeapons = async() => {
         const section = document.createElement("section");
         section.classList.add("Weps");
         section.classList.add("one");
-        document.getElementById("Weapons-faith").append(section);
+        document.getElementById("Weapons-Arcane").append(section);
 
         //create the heading
         const p1 = document.createElement("p");

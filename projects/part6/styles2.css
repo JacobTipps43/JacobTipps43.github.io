@@ -92,12 +92,12 @@ body{
     padding-bottom: 5px;
 }
 
-#Weapons-faith{
+#Weapons-Arcane{
     text-align: center;
     background-color: #dbd2b0;
     color: #1a2324;
 }
-#Weapons-faith section{
+#Weapons-Arcane section{
     border: solid 1px black;
     padding-bottom: 5px;
 }
@@ -138,11 +138,11 @@ body{
     flex:30%;
 }
 
-#Weapons-faith {
+#Weapons-Arcane {
     flex-wrap: wrap;
     }
 
-#Weapons-faith section {
+#Weapons-Arcane section {
     flex:30%;
 }
 #main-nav{
