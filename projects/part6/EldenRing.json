@@ -138,5 +138,94 @@
             } 
         ]
         }
+    ],
+    "Talismans":[
+        {
+        "StrengthTalismans":[
+        {
+            "name": "Erdtree’s Favor",
+            "img": "images/talismans/Erdtree_Favor.png",
+            "description": "Erdtree’s Favor is not only favored by Bleed players in Elden Ring, but it’s also one of the best talismans for strength builds. This talisman increases HP by 3%, stamina by 7%, and equipment load by 5%. Since strength builds heavily rely on health and stamina, this medallion is an invaluable asset for enhancing your survivability and combat effectiveness."
+        },
+        {
+            "name": "Great-Jar’s Arsenal",
+            "img": "images/talismans/Great-Jar_Arsenal.png",
+            "description": "Equipment load is a crucial factor in building a strength character in Elden Ring, and Great-Jar’s Arsenal is perfect for this purpose. This talisman boosts your character’s equipment load by 19%, allowing you to wield heavier greatswords without sacrificing mobility. With this enhancement, you can dodge and roll effectively, maintaining agility while dealing powerful attacks."
+        },
+        {
+            "name": "Claw",
+            "img": "images/talismans/Claw_Talisman.png",
+            "description": "Using jump attacks with your strength weapon is the most effective way to maximize damage, as they outperform standard slash attacks. To make your jump attacks hit even harder, consider equipping the Elden Ring Claw Talisman, which boosts jump attack damage by 15%. If you often rely on jump attacks, this talisman is a valuable addition to your setup."
+        }
+        ],
+        "DexterityTalismans":[
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "img": "images/talismans/Prosthesis-Wearer_Heirloom.png",
+                "description": "The Prosthesis-Wearer Heirloom is a valuable talisman in *Elden Ring* that enhances dexterity by 5 levels. This makes it an excellent choice for players focused on dexterity builds, as it boosts both attack power and speed. Its design reflects the legacy of those who have embraced the power of prosthetics, making it a fitting addition for those who aim to maximize their agility and effectiveness in combat."
+            },
+            {
+                "name": "Twinblade Talisman",
+                "img": "images/talismans/Twinblade_Talisman.png",
+                "description": "The Twinblade Talisman belongs to the same series as the Claw Talisman and is highly beneficial for dual-wielding dexterity builds. This talisman boosts the damage of the final attack in a weapon combo by an impressive 20%, making it a great choice for maximizing your damage output during rapid strikes."
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "img": "images/talismans/Millicents_Prosthesis.png",
+                "description": "Millicent's Prosthesis talisman offers an effect similar to the Rotten Winged Sword Insignia, but with an added benefit. It not only increases the damage of successive attacks but also provides a 5-level boost to the wearer’s dexterity stat. This makes it a valuable choice for enhancing both damage output and dexterity-based builds."
+            }
+        ],
+        "MageTalismans": [
+            {
+                "name": "Godfrey Icon",
+                "img": "images/talismans/Godfrey_Icon.png",
+                "description": "The Godfrey Icon talisman, featuring an emblem of Godfrey, boosts the power of charged spells and skills by an impressive 15%. This enhancement allows charged spells to deal significantly more damage, making them more effective against a variety of enemies and adding extra punch to your magical arsenal."
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "img": "images/talismans/Magic_Scorpion_Charm.png",
+                "description": "The Magic Scorpion Charm is part of a series of talismans that enhance damage for various elements. Specifically, this talisman increases magic damage by 12%, making it an excellent choice for mages and magic-focused builds looking to maximize their spell potency."
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "img": "images/talismans/Primal_Glintstone_Blade.png",
+                "description": "The Primal Glintstone Blade talisman enables players to cast spells more frequently by reducing their FP cost by 25%. However, this comes at a cost, as it also decreases the player’s health by 8.5%. This trade-off makes it a strategic choice for those looking to enhance their spellcasting capabilities while managing their health."
+            }
+        ],
+        "ArcaneTalismans": [
+            {
+                "name": "Lord of Blood’s Exultation",
+                "img": "images/talismans/Lord_of_Blood_Exultation.png",
+                "description": "Lord of Blood’s Exultation is a powerful talisman in Elden Ring that boosts attack power by 20% when nearby enemies are affected by blood loss. This makes it particularly effective for builds that utilize bleed effects, allowing you to deal significant damage in combat. Its design reflects the theme of blood and carnage, perfectly suiting those who revel in the chaos of battle."
+            },
+            {
+                "name": "Shard of Alexander",
+                "img": "images/talismans/Shard_of_Alexander.png",
+                "description": "The Shard of Alexander is a unique talisman in *Elden Ring* that enhances the power of your skills by 15%. This makes it an excellent choice for players who rely on weapon skills or special abilities, allowing them to maximize their damage output. Its design, featuring the likeness of Alexander the Warrior, emphasizes strength and combat prowess, making it a valuable asset for any build that utilizes powerful skills."
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "img": "images/talismans/Fire_Scorpion_Charm.png",
+                "description": "The Fire Scorpion Charm is a talisman in *Elden Ring* that boosts fire damage by 12%. This makes it an excellent choice for builds focused on fire-based spells and attacks, allowing you to increase your damage output significantly. Its fiery design embodies the essence of flame, making it a perfect fit for pyromancers and anyone looking to harness the destructive power of fire in combat."
+            }
+        ],
+        "FaithTalismans": [
+            {
+                "name": "Two Fingers Heirloom",
+                "img": "images/talismans/Two_Fingers_Heirloom.png",
+                "description": "The Two Fingers Heirloom is a talisman in Elden Ring that increases your faith by 5 levels. This makes it a valuable addition for faith-focused builds, enhancing your spellcasting capabilities and increasing the effectiveness of faith-based incantations. Its design reflects the connection to the Two Fingers, symbolizing guidance and devotion, making it an essential choice for players who seek to wield divine power."
+            },
+            {
+                "name": "Marika's Soreseal",
+                "img": "images/talismans/Marika_Soreseal.png",
+                "description": "While many players prefer Radagon's Soreseal for its boosts to melee stats, Marika's Soreseal is ideal for magic builds, enhancing mind, intelligence, faith, and arcane by +5. However, it also increases all damage taken by 15%, so players should pair it with a talisman to mitigate this drawback for a balanced approach to combat."
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "img": "images/talismans/Radagon_Soreseal.png",
+                "description": "Radagon's Soreseal is considered one of the best talismans in *Elden Ring* due to its boosts to multiple stats by +5. Despite its negative effect of -15% damage negation, it remains a valuable choice for both PvE and PvP. The buffs it provides are equivalent to 20 levels, allowing players to conserve their Runes for other priorities. However, players nearing the soft cap for certain stats should be cautious, as the talisman may lead to diminishing returns."
+            }
+        ]
+        }
     ]
 }
