@@ -6,8 +6,9 @@ document.getElementById('form-raccoon').onsubmit = (e) =>{
     const raccoonName = form.elements["raccoon-name"].value;
     const demeanor = form.elements["demeanor"].value;
     const termsChecked = form.elements["terms"].checked;
+    const size = getRadioValue("size");
 
-    console.log(raccoonName);
+    console.log(`${raccoonName} is ${size} sized and has a ${demeanor} demeanor`);
 };
 
 const getRadioValue = (radioName) => {
@@ -18,4 +19,6 @@ const getRadioValue = (radioName) => {
             return radios[i].value;
         }
     }
+
+    return "";
 }
