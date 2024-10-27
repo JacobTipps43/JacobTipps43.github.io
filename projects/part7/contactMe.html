@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h3>Contact Me</h3>
+      <div class="columns">
+        <form
+          id="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="8454a5e5-afd8-4d60-9bee-e6e57ef66068"
+          />
+
+          <p>
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="first and last"
+              name="name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </p>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://web3forms.com/success"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="Contact from Elden Ring Website"
+          />
+          <input type="hidden" name="from_name" value="My Website" />
+
+          <p>
+            <button type="submit">Submit Form</button>
+          </p>
+          </form>
+        </div>
+        <script src="script6.js"></script>
+    </body>
+</html>
