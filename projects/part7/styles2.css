@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b07a43;
+}
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+  #weaponimages{
+    height: 200px;
+    width: 200px;
+  }
+
+  #main-nav{
+    background-color: #f2d16c;
+    color: #1a2324;
+    font-size: 20px;
+}
+#main-nav ul{
+    justify-content: space-around;
+    padding: 8px;
+    margin: 0;
+    border: solid 3px black;
+}
+#main-nav li{
+    list-style: none;
+    text-align: center;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav a:hover{
+    background-color: black;
+    color:white;
+    padding: 2px;
+}
+
+#main-header{
+    background-color: #476747;
+    color: #1a2324;
+    padding-bottom: 0.1px;
+}
+#main-header h1{
+    text-align: center;
+    font-size: 40px;
+}
+#main-header a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+#tableNames{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #476747;
+    color: #1a2324;
+}
+
+
+#Weapons-strength{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-strength section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Weapons-dexterity{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-dexterity section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Weapons-magic{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-magic section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Weapons-Arcane{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-Arcane section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Weapons-faith{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Weapons-faith section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+.hidden-small{
+    display:none;
+  }
+@media only screen and (min-width:850px){
+    .columns {
+      display: flex;
+    }
+
+  .one{
+      flex:1;
+  }
+
+  #Weapons-strength {
+    flex-wrap: wrap;
+    }
+
+#Weapons-strength section {
+    flex:30%;
+}
+
+#Weapons-dexterity {
+    flex-wrap: wrap;
+    }
+
+#Weapons-dexterity section {
+    flex:30%;
+}
+
+#Weapons-magic {
+    flex-wrap: wrap;
+    }
+    
+#Weapons-magic section {
+    flex:30%;
+}
+
+#Weapons-Arcane {
+    flex-wrap: wrap;
+    }
+
+#Weapons-Arcane section {
+    flex:30%;
+}
+
+#Weapons-faith {
+    flex-wrap: wrap;
+    }
+
+#Weapons-faith section {
+    flex:30%;
+}
+
+  
+#main-nav{
+    flex:1;
+  }
+  #toggle-nav {
+    display:none;
+  }
+  .hidden-small {
+    display:flex;
+  }
+  
+}

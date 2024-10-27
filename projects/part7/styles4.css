@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b07a43;
+}
+#main-header{
+    background-color: #476747;
+    color: #1a2324;
+    padding-bottom: 0.1px;
+}
+#main-header h1{
+    text-align: center;
+    font-size: 40px;
+}
+#main-header a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+}
+
+#talismanimages{
+    height: 250px; 
+    width: auto;
+}
+
+#Talismans-strength{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-strength section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-dexterity{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-dexterity section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-mage{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-mage section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-arcane{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-arcane section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#Talismans-faith{
+    text-align: center;
+    background-color: #dbd2b0;
+    color: #1a2324;
+}
+#Talismans-faith section{
+    border: solid 1px black;
+    padding-bottom: 5px;
+}
+
+#main-nav{
+    background-color: #f2d16c;
+    color: #1a2324;
+    font-size: 20px;
+}
+#main-nav ul{
+    justify-content: space-around;
+    padding: 8px;
+    margin: 0;
+    border: solid 3px black;
+}
+#main-nav li{
+    list-style: none;
+    text-align: center;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav a:hover{
+    background-color: black;
+    color:white;
+    padding: 2px;
+}
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+  }
+
+.hidden-small{
+    display:none;
+  }
+  #tableNames{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #476747;
+    color: #1a2324;
+}
+
+@media only screen and (min-width:850px){
+    .columns {
+      display: flex;
+    }
+
+  .one{
+      flex:1;
+  }
+
+  #Talismans-strength {
+    flex-wrap: wrap;
+    }
+
+#Talismans-strength section {
+    flex:30%;
+}
+
+#Talismans-dexterity {
+    flex-wrap: wrap;
+    }
+
+#Talismans-dexterity section {
+    flex:30%;
+}
+
+#Talismans-mage {
+    flex-wrap: wrap;
+    }
+
+#Talismans-mage section {
+    flex:30%;
+}
+
+#Talismans-arcane {
+    flex-wrap: wrap;
+    }
+
+#Talismans-arcane section {
+    flex:30%;
+}
+
+#Talismans-faith {
+    flex-wrap: wrap;
+    }
+
+#Talismans-faith section {
+    flex:30%;
+}
+
+  
+
+#toggle-nav {
+    display:none;
+  }
+  .hidden-small {
+    display:flex;
+  }
+}
