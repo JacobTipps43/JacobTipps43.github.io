@@ -1,22 +1,22 @@
-const sendEmail = async(json) => {
+const sendEmail = async (json) => {
     try {
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
-            headers:{
-                "Content-Type":"application/json",
-                Accept:"application/json"
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
             },
-            body:json
+            body: json,
         });
 
         return response;
-    } catch(error){
+    } catch (error) {
         console.log(error);
         result.innerHTML = "Sorry, your email couldn't be sent";
     }
 };
 
-document.getElementById("contact-form").onsubmit = async(e) => {
+document.getElementById("contact-form").onsubmit = async (e) => {
     e.preventDefault();
 
     const form = e.target;
@@ -28,9 +28,13 @@ document.getElementById("contact-form").onsubmit = async(e) => {
 
     const httpResult = await sendEmail(json);
 
-    if(httpResult.status == 200){
+    if (httpResult.status == 200) {
         result.innerHTML = "Email successfully sent";
+
+        form.reset();
     } else {
         result.innerHTML = "Sorry, your email wasn't sent";
     }
-}
+};
+
+console.log("Script 6 loaded");
